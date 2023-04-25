@@ -30,5 +30,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://practicode-server-qh2d.onrender.com"
+  "proxy": "http://localhost:5000/"
 }
