@@ -5,6 +5,7 @@
   "dependencies": {
     "axios": "^1.3.4",
     "dotenv": "^16.0.3",
+    "http-proxy-middleware": "^2.0.6",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "^3.4.0"
@@ -30,10 +31,10 @@
       "last 1 safari version"
     ]
   },
-  "proxy":{
-    "/items" : {
-      "target" : "https://practicode-server-qh2d.onrender.com",
-      "changeOrigin" : true
+  "proxy": {
+    "/items": {
+      "target": "https://practicode-server-qh2d.onrender.com",
+      "changeOrigin": true
     }
   }
 }
